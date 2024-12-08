@@ -53,9 +53,6 @@ form button:hover{
   background-color: #73116c;
   color: #4b8e7f;
 }
-form button:focus{
-  background: #e03dcd;
-}
 
 main{
   text-align: center;
