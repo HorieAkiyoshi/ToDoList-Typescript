@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #1e062d;
+}
+
+h1{
+  text-align: center;
+  color: #c330b2;
+}
+
+form{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 65%;
+}
+
+form input{
+  width: 77%;
+  height: 60px;
+  padding-left: 2%;
+  font-size: 1.1rem;
+  border: 1px solid #c330b2;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  background: transparent;
+  color: #c330b2;
+  outline: none;
+  cursor: pointer;
+}
+
+form button{
+  width: 23%;
+  height: 60px;
+  font-size: 1.1rem;
+  background: #c330b2;
+  color: #1e062d;
+  font-weight: 700;
+  border: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+form button:hover{
+  background-color: #73116c;
+  color: #4b8e7f;
+}
+form button:focus{
+  background: #e03dcd;
+}
+
+main{
+  text-align: center;
+}
+
+img{
+  width: 65%;
+  height: 400px;
+  margin-top: 50px auto;
+  border-radius: 10px;
+}
+
+.tarefas{
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 50px;
+  border: 1px solid #c330b2;
+  border-radius: 5px;
+  color: #c330b2;
+  font-size: 1.1rem;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.tarefa{
+  text-align: left;
+  padding-left: 2%;
+  width: 75%;
+}
+
+.delete{
+  width: 25%;
+  text-align: center;
+}
+
+.delete button{
+  height: 50px;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #c330b2;
+  border: #c330b2;
+  color: #1e062d;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.delete button:hover{
+  background: #73116c;
+  color: #4b8e7f;
+}
+.delete button:focus{
+  background: #e03dcd;
+}
+
+.tarefa.completo{
+  text-decoration: line-through;
+  color: #4b8e7f;
+}
+
+.deletarTudo{
+  background: #c330b2;
+  color: #1e062d;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px auto;
+}
+
+.deletarTudo:hover{
+  background: #73116c;
+  color: #4b8e7f;
+}
+
+.deletarTudo:focus{
+  background: #e03dcd;
+}
+
+@media screen and (max-width: 950px) {
+  form{
+    width: 95%;
+  }
+  .tarefas{
+    width: 95%;
+  }
+  img{
+    width: 90%;
+  }
+}
